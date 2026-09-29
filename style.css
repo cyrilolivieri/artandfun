@@ -123,6 +123,11 @@ section h3 {
     font-size: 0.95rem;
 }
 
+.shop-cta {
+    text-align: center;
+    margin-top: 2rem;
+}
+
 a {
     color: #18a0fb;
     text-decoration: none;
