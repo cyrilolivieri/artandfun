@@ -64,6 +64,65 @@ section h3 {
     margin-top: 1.5rem;
 }
 
+.cta {
+    display: inline-block;
+    background: #18a0fb;
+    color: white;
+    padding: 0.8rem 1.6rem;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.cta:hover {
+    background: #0f7fd1;
+}
+
+.intro {
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.collections {
+    margin-top: 2rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.card {
+    display: block;
+    background: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 1.2rem;
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+    margin: 0 0 0.5rem;
+    color: #1a1a2e;
+    font-size: 1.1rem;
+}
+
+.card p {
+    margin: 0;
+    color: #666;
+    font-size: 0.95rem;
+}
+
 a {
     color: #18a0fb;
     text-decoration: none;
